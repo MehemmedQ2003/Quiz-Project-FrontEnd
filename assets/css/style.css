@@ -1,0 +1,61 @@
+/** Scroll Bar **/
+::-webkit-scrollbar{
+    width: 13px;
+    background-color: #F8F9FA;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #198754;
+    border-radius: 10px;
+}
+
+/** Selection **/
+::selection{
+    background-color: #198754;
+    color: white;
+}
+
+
+/** Index **/
+.card-style {
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    padding: 16px;
+}
+
+
+.card-style:hover{
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.5);
+    transition: 0.4s ease-in-out;
+    transform: scale(1.02);
+}
+
+
+/** About **/
+.icons{
+    padding: 15px;
+    background-color: #DCFCE7;
+}
+
+
+/** Category **/
+.category-card .card{
+    height: 230px;
+}
+
+
+/** Contact **/
+input:active, textarea:active{
+    border: 1px solid black;
+}
+
+
+/** Footer **/
+.footer-link{
+    color: black;
+}
+
+.footer-link:hover{
+    color: #198754;
+    transition: 0.5s;
+}
